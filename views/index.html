@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Robert Majka — Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../public/css/main.css" />
 </head>
 <body>
 
@@ -80,7 +77,7 @@
         <div class="proj-card">
             <p class="proj-num">01</p>
             <h3 class="proj-title">Mini Monster Battle Engine</h3>
-            <p class="proj-desc">A turn-based combat system inspired by Pokémon. Type matchups, randomised moves, validated input loops — built in Python with clean OOP structure.</p>
+            <p class="proj-desc">A turn-based combat system inspired by Pokémon. Type matchups, randomized moves, validated input loops — built in Python with clean OOP structure.</p>
             <div class="tag-row">
                 <span class="tag">Python</span>
                 <span class="tag">OOP</span>
@@ -104,7 +101,7 @@
         <div class="proj-card">
             <p class="proj-num">03</p>
             <h3 class="proj-title">Student Tracker</h3>
-            <p class="proj-desc">A persistent student-record manager with JSON file I/O, full error handling, and class-based design. Clean serialisation and a simple CLI.</p>
+            <p class="proj-desc">A persistent student-record manager with JSON file I/O, full error handling, and class-based design. Clean serialization and a simple CLI.</p>
             <div class="tag-row">
                 <span class="tag">Python</span>
                 <span class="tag">SQLite</span>
@@ -286,15 +283,6 @@
     <p>© <span id="footer-year"></span> <span>Robert Majka</span></p>
 </footer>
 
-<script src="/js/main.js"></script>
-<script>
-    document.getElementById('footer-year').textContent = new Date().getFullYear();
-
-    // Show success message after Formspree redirect
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('submitted') === 'true') {
-        document.querySelector('.form-success').style.display = 'block';
-    }
-</script>
+<script src="../public/js/main.js"></script>
 </body>
 </html>

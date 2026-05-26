@@ -1,6 +1,3 @@
-const express = require('express');
-const router = express.Router();
-
 const portfolioData =
 {title: 'Robert Majka — Developer Portfolio',
 
@@ -97,17 +94,3 @@ contact: {
 },
 };
 
-// GET /
-router.get('/', (req, res) => {
-    res.render('index', portfolioData);
-});
-
-// POST /contact
-router.post('/contact', (req, res) => {
-    const { name, email, message } = req.body;
-  // TODO: hook up nodemailer or save to DB
-    console.log('Contact form submission:', { name, email, message });
-    res.render('index', { ...portfolioData, success: true });
-});
-
-module.exports = router;

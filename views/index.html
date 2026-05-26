@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Majka — Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<nav>
+    <a href="/" class="nav-logo">Robert Majka</a>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+    <p class="hero-eyebrow">Developer &amp; Game Enthusiast</p>
+    <h1 class="hero-name">Hi, I'm Robert Majka.<br /><em>I build things.</em></h1>
+    <p class="hero-sub">
+        CS student with a passion for Python, game development, and making software that actually does something useful.
+    </p>
+    <div class="hero-cta">
+        <a href="#projects" class="btn">See My Work</a>
+        <a href="#contact" class="btn-ghost">Get in touch ↗</a>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+    <p class="eyebrow reveal">About Me</p>
+    <h2 class="sec-title reveal">A bit about who I am</h2>
+    <div class="about-layout">
+        <div class="about-text reveal">
+            <p>I'm a developer who got into code because of games — and never really left. My main language is <strong>Python</strong>, though I'm comfortable in <strong>C# and Java</strong> too, and I've been picking up web dev along the way.</p>
+            <p>I like projects that have a real purpose — a scraper that tracks prices, a game engine that actually works, a bot that runs on my own hardware. I learn best by building.</p>
+            <p>Outside of coding I'm deep into <strong>RimWorld</strong>, running a local AI setup at home, and slowly working toward a career in game development.</p>
+            <div style="margin-top:2rem;"><a href="#contact" class="btn" style="font-size:0.85rem;">Say hello</a></div>
+        </div>
+        <div class="about-cards reveal">
+            <div class="about-card">
+                <div class="about-card-num">4+</div>
+                <div class="about-card-label">Languages</div>
+            </div>
+            <div class="about-card">
+                <div class="about-card-num">5+</div>
+                <div class="about-card-label">Projects Built</div>
+            </div>
+            <div class="about-card">
+                <div class="about-card-num">137.1</div>
+                <div class="about-card-label">Hours in RimWorld</div>
+            </div>
+            <div class="about-card">
+                <div class="about-card-num">1</div>
+                <div class="about-card-label">Dream Studio</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <p class="eyebrow reveal">Projects</p>
+    <h2 class="sec-title reveal">Things I've built</h2>
+    <div class="projects-grid reveal">
+
+        <div class="proj-card">
+            <p class="proj-num">01</p>
+            <h3 class="proj-title">Mini Monster Battle Engine</h3>
+            <p class="proj-desc">A turn-based combat system inspired by Pokémon. Type matchups, randomised moves, validated input loops — built in Python with clean OOP structure.</p>
+            <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">OOP</span>
+                <span class="tag">Enums</span>
+                <span class="tag">Game Logic</span>
+            </div>
+        </div>
+
+        <div class="proj-card">
+            <p class="proj-num">02</p>
+            <h3 class="proj-title">Newegg Price Tracker</h3>
+            <p class="proj-desc">Scrapes Newegg product pages, stores price history in JSON, and alerts when an all-time low is hit. Uses BeautifulSoup and a custom Product class.</p>
+            <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">BeautifulSoup</span>
+                <span class="tag">JSON</span>
+                <span class="tag">Web Scraping</span>
+            </div>
+        </div>
+
+        <div class="proj-card">
+            <p class="proj-num">03</p>
+            <h3 class="proj-title">Student Tracker</h3>
+            <p class="proj-desc">A persistent student-record manager with JSON file I/O, full error handling, and class-based design. Clean serialisation and a simple CLI.</p>
+            <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">JSON</span>
+                <span class="tag">OOP</span>
+            </div>
+        </div>
+
+        <div class="proj-card">
+            <p class="proj-num">04</p>
+            <h3 class="proj-title">Discord AI Bot</h3>
+            <p class="proj-desc">A local AI pipeline — Ollama running Gemma 4, connected to Discord via OpenClaw. Fully self-hosted, no cloud API.</p>
+            <div class="tag-row">
+                <span class="tag">Ollama</span>
+                <span class="tag">OpenClaw</span>
+                <span class="tag">Discord</span>
+                <span class="tag">Self-Hosted</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+    <p class="eyebrow reveal">Skills</p>
+    <h2 class="sec-title reveal">What I work with</h2>
+    <div class="skills-layout">
+        <div class="skills-group reveal">
+            <h3>Languages</h3>
+
+            <div class="skill-item">
+                <div class="skill-header"><span>Python</span><span>Primary</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header"><span>HTML / CSS</span><span>Working</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header"><span>C#</span><span>Proficient</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header"><span>JavaScript</span><span>Learning</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-w="60"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header"><span>Java</span><span>Need Recap</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-w="50"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header"><span>C++</span><span>Learning</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-w="40"></div></div>
+            </div>
+
+        </div>
+        <div class="skills-group reveal">
+            <h3>Libraries &amp; Tools</h3>
+            <div class="chip-grid" style="margin-bottom:2rem;">
+                <span class="chip">NumPy</span>
+                <span class="chip">BeautifulSoup</span>
+                <span class="chip">Requests</span>
+                <span class="chip">SQLite3</span>
+                <span class="chip">Regex</span>
+                <span class="chip">JSON / CSV</span>
+                <span class="chip">Express.js</span>
+                <span class="chip">Git</span>
+                <span class="chip">Ollama</span>
+                <span class="chip">Discord API</span>
+                <span class="chip">AI</span>
+            </div>
+            <h3>Concepts</h3>
+            <div class="chip-grid">
+                <span class="chip">OOP Design</span>
+                <span class="chip">Web Scraping</span>
+                <span class="chip">Data Persistence</span>
+                <span class="chip">Game Systems</span>
+                <span class="chip">REST APIs</span>
+                <span class="chip">Error Handling</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <p class="eyebrow reveal">Experience</p>
+    <h2 class="sec-title reveal">My journey so far</h2>
+    <div class="exp-list reveal">
+
+        <div class="exp-item">
+            <div class="exp-date">2024 — Present</div>
+            <div>
+                <div class="exp-role">CS Student &amp; Developer</div>
+                <div class="exp-org">University Coursework</div>
+                <ul class="exp-body">
+                    <li>Built Python projects covering scripting, data collection, NumPy, and web scraping.</li>
+                    <li>Developed full-scope apps: a battle engine, price tracker, and student management system.</li>
+                    <li>Covered data structures, OOP, SQL, and regex-based text processing.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-date">2023 — Present</div>
+            <div>
+                <div class="exp-role">Hobbyist Infrastructure Tinkerer</div>
+                <div class="exp-org">Personal Home Lab</div>
+                <ul class="exp-body">
+                    <li>Set up a self-hosted AI stack (Ollama + Gemma 4) piped into Discord.</li>
+                    <li>Created embedded projects with ESP32 hardware involving networking, peripherals, and real-time device interaction.</li>
+                    <li>Explored API integrations and self-hosted tooling out of genuine curiosity.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-date">Long-term goal</div>
+            <div>
+                <div class="exp-role">Aspiring Game Developer</div>
+                <div class="exp-org">Personal Ambition</div>
+                <ul class="exp-body">
+                    <li>Lifelong interest in game design and the systems that power it.</li>
+                    <li>Submitted a speculative application to Ludeon Studios highlighting C# skills and familiarity with RimWorld.</li>
+                    <li>Actively bridging software engineering and game development through personal projects.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+    <p class="eyebrow reveal">Contact</p>
+    <div class="contact-layout">
+        <div class="reveal">
+            <h2 class="contact-heading">Let's work on something <span>together.</span></h2>
+            <p class="contact-sub">Open to internships, collaborations, game dev opportunities, or just a chat about code.</p>
+            <div class="contact-links">
+                <a href="mailto:RobertMajka254@gmail.com" class="clink">
+                    <span class="clink-label">Email</span>RobertMajka254@gmail.com
+                </a>
+                <a href="https://github.com/Notaweedle" target="_blank" class="clink">
+                    <span class="clink-label">GitHub</span>github.com/Notaweedle
+                </a>
+                <a href="https://linkedin.com/in/yourname" target="_blank" class="clink">
+                    <span class="clink-label">LinkedIn</span>linkedin.com/in/yourname
+                </a>
+            </div>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-field">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="message" placeholder="What's on your mind?"></textarea>
+            </div>
+            <p class="form-success" style="display:none;font-size:0.8rem;color:var(--accent2);">✓ Message sent!</p>
+            <button type="submit" class="btn" style="align-self:flex-start;cursor:pointer;">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© <span id="footer-year"></span> <span>Robert Majka</span></p>
+</footer>
+
+<script src="/js/main.js"></script>
+<script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    // Show success message after Formspree redirect
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('submitted') === 'true') {
+        document.querySelector('.form-success').style.display = 'block';
+    }
+</script>
+</body>
+</html>

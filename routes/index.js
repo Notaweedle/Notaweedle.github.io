@@ -90,7 +90,7 @@ experience: [
 contact: {
     email: 'Bobmajka@gmail.com',
     github: 'https://github.com/Notaweedle',
-    linkedin: 'https://linkedin.com/in/yourname',
+    linkedin: 'N/A',
 },
 };
 

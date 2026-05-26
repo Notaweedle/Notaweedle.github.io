@@ -88,7 +88,7 @@ experience: [
 ],
 
 contact: {
-    email: 'RobertMajka254@gmail.com',
+    email: 'Bobmajka@gmail.com',
     github: 'https://github.com/Notaweedle',
     linkedin: 'https://linkedin.com/in/yourname',
 },

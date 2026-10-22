@@ -218,19 +218,23 @@ h1.hero-name em {
 .proj-card:hover { border-color: var(--accent); transform: translateY(-3px); }
 
 .proj-links {
-    display: flex; flex-wrap: wrap; gap: 1.2rem;
+    display: flex; flex-wrap: wrap; gap: 0.7rem;
     margin-top: auto;
     padding-top: 1.4rem;
 }
 
+/* Project links render as small outlined buttons (same look as .btn-copy) */
 .proj-links a {
     font-size: 0.82rem;
+    padding: 0.55rem 1.1rem;
     color: var(--accent2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
     text-decoration: none;
-    transition: color 0.2s;
+    transition: all 0.2s;
 }
 
-.proj-links a:hover { color: var(--text); }
+.proj-links a:hover { border-color: var(--accent); color: var(--text); }
 
 .more-projects { margin-top: 3rem; }
 
